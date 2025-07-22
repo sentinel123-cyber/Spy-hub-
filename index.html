@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SpyPhone Hub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>SpyPhone Hub</h1>
+    <nav>
+      <button onclick="generatePDF()">Generate Report PDF</button>
+    </nav>
+  </header>
+  <main>
+    <section id="logs">
+      <h2>Fake Activity Logs</h2>
+      <ul id="log-list"></ul>
+    </section>
+    <section id="map-sim">
+      <h2>GPS Tracker Simulation</h2>
+      <div class="map-placeholder">[Map Placeholder]</div>
+    </section>
+    <section id="camera-sim">
+      <h2>Live Camera Simulation</h2>
+      <img src="https://placekitten.com/320/180" alt="Live Camera Feed" />
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
